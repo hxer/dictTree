@@ -1,0 +1,6 @@
+test password file:passwd2.txt
+test class TNcode insert function ......
+Total tiem runing test_insert :4.75869202614 seconds
+
+test class TNode save function ......
+Total tiem runing test_save :16.3356389999 seconds
