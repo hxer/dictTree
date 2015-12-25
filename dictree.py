@@ -23,6 +23,9 @@ import os.path
 import argparse
 
 def genDTABLE():
+    """
+    generate the table that only include "a-z,A-Z,0-9,_"
+    """
     dtable = []
     for i in range(26):
         dtable.append(chr(ord('a')+i))
@@ -35,7 +38,9 @@ def genDTABLE():
 DTABLE = genDTABLE()
 
 class Node(object):
-
+    """
+    tree node, abstract class
+    """
     def __init__(self):
         self.tag = False
         self.cnt = 0
